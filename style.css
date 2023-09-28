@@ -99,18 +99,21 @@ margin: 0px 0px 0px 10px ;
 }
 
 .wrapper-slider{
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
 }
 
 .wrapper-slide{
     display: flex;
+    margin-top: 20px;
 }
+
+
 
 .slide{
     display: flex;
-    animation: slide 5s infinite linear;
+    animation: slide 25s infinite linear;
 }
 
 @keyframes slide{
@@ -122,7 +125,6 @@ margin: 0px 0px 0px 10px ;
     }
 }
 .slide img{
-    width: 60px;
-    height: 20px;
+    width:100px;
     padding: 0px 20px;
 }
